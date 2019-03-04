@@ -28,8 +28,8 @@ command $ pip freeze > requirements.txt .You can use pipenv to manage dependenci
  NB: you will need a configuration file to serve application via gunicorn and ngnix when in production to run web server as a service.
 
 
-#### samson Takele Demma.   
-#### +421-949-227-950.  
+#### samson Takele Demma 
+#### +421-949-227-950
 #### sami.dsami@gmail.com 
 
 
