@@ -6,8 +6,8 @@
 ### Main app file is named app.py , there is a separate templates directory which contains the static html files which will be rendered by the backend flask 
 
   ### After extracting the zip file follow the steps 
-#### 1. Create virtual environment 
--command to create a virtual environment  $ virtualenv web-scraper-virtual [optional step]
+#### 1. Create virtual environment [optional step]
+-command to create a virtual environment  $ virtualenv web-scraper-virtual 
     
 #### 2. Activate virtualenv 
 -command  to activate virtual environment $ source bin/activate
