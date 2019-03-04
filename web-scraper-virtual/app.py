@@ -95,7 +95,7 @@ def erroring(e):
 
 
 
-# host can be changed to '0.0.0.0' if there is a need for other device access to server
+# host can be changed to '0.0.0.0' if there is a need for other device access to server within the network
 if __name__=="__main__":
     app.run(host='127.0.0.1', debug=True, port='8000')
 
