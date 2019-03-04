@@ -1,5 +1,5 @@
-     Web Scraper
-     =============
+ Web Scraper
+ =============
 
 
 ## App is developed using Flask a Python web framework
