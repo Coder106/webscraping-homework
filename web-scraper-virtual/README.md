@@ -1,3 +1,7 @@
+     Web Scraper
+     =============
+
+
 ## App is developed using Flask a Python web framework
 ## Main app file is named app.py , there is a separate templates directory which contains the static html files which will be rendered by the backend flask 
 
