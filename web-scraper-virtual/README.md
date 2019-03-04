@@ -25,7 +25,7 @@ command $ pip freeze > requirements.txt .You can use pipenv to manage dependenci
 #### 6. on the main page you will be presented with a form to submit the URL you are trying to extract data from
 
 #### If You will be using gunicorn you can use the command $ gunicorn -w 4 -b 127.0.0.1:8000 app:app. , that command will create 4 workers and binds the IP address given with the port number assigned
- NB: you will need a configuration file to serve application via gunicorn and ngnix when in production to run web server as a service.
+#### NB: you will need a configuration file to serve application via gunicorn and ngnix when in production to run web server as a service.
 
 
 #### samson Takele Demma 
