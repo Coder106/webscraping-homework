@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+{% block head %}
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+<title>{% block title %}Web Scraper{% endblock %}</title>
+<style>
+    body {
+    color:#1c98ec;
+    background-color: #1D1D1D;
+   }
+
+</style>
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1o">
+{% endblock %}
+</head>
+<body>{%  block body %} 
+  <br><br>
+    <h1 style="text-align: center;">Web Scraper</h1>
+<br><br>
+    <p>Web scraper a simple app which takes in your Public URL and output basic statics try it....</p>
+
+   <form action="{{ url_for('scraped') }} " method="post">
+        <input type="text" name="info" placeholder="Enter URL ...">
+        <input type="submit" value="Submit">
+   </form>
+   {% endblock %}</body>
+</html>

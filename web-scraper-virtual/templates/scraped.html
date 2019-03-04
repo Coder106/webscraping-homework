@@ -1,0 +1,17 @@
+{% extends "index.html" %}
+{% block title %}Scraped Data {% endblock %}
+
+{% block head %}
+  {{ super() }}
+  {% endblock %} 
+
+  <body>{% block body %}
+<h1> Scraped Data</h1>
+<br><br>
+<p><span style="color:yellow">Most common letter is</span> {{ letters_only}} </p>
+<p><span style="color:yellow">Longest Word is </span> {{ longest_word }}</p>
+<p><span style="color:yellow">Frequency of Each Word </span>{{ words_only }}</p>
+<a style="color: yellow" href="/">Wanna try another URL?</a>
+{% endblock %}
+</body>
+
