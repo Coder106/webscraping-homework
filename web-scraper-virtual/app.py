@@ -34,8 +34,6 @@ def scraper():
 @app.route("/scraped/", methods=["POST"])
 def scraped():
     info = request.form["info"]
-    #if info == "":
-     #   return render_template("error.html")
     try:
         requests.get(info)
     except:
