@@ -1,7 +1,7 @@
 ## App is developed using Flask a Python web framework
 ## Main app file is named app.py , there is a separate templates directory which contains the static html files which will be rendered by the backend flask 
 
-  #After extracting the zip file follow the steps 
+  # After extracting the zip file follow the steps 
 1. Create virtual environment 
 -command to create a virtual environment  $ virtualenv web-scraper-virtual [optional step]
     
@@ -20,8 +20,8 @@ command $ pip freeze > requirements.txt .You can use pipenv to manage dependenci
 
 6. on the main page you will be presented with a form to submit the URL you are trying to extract data from
 
-# If You will be using gunicorn you can use the command $ gunicorn -w 4 -b 127.0.0.1:8000 app:app
-# NB: you will need a configuration file to serve application via gunicorn and ngnix when in production to run web server as a service.
+**If You will be using gunicorn you can use the command $ gunicorn -w 4 -b 127.0.0.1:8000 app:app
+**NB: you will need a configuration file to serve application via gunicorn and ngnix when in production to run web server as a service.
 
 
 **samson Takele Demma
