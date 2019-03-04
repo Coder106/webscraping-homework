@@ -3,18 +3,18 @@
 
   # After extracting the zip file follow the steps 
 1. Create virtual environment 
--command to create a virtual environment  $ virtualenv web-scraper-virtual [optional step]
+-command to create a virtual environment  **$ virtualenv web-scraper-virtual [optional step]
     
 2. Activate virtualenv 
--command  to activate virtual environment $ source bin/activate
+-command  to activate virtual environment **$ source bin/activate
 
 3. Installl required modules/libraries using python's package manager pip 
 pip install requests, pandas, pygal, flask, gunicorn
--command $ pip install requests
+-command **$ pip install requests
 * all the libraries needed are included in requirements.txt file which was automically created by 
 command $ pip freeze > requirements.txt .You can use pipenv to manage dependencies better in future. 
 4. Run the app.py file like you would any other python file 
--command $ python3 app.py 
+-command **$ python3 app.py 
 
 5. Go to your broswer and enter localhost:8000 to access the main page of the app 
 
