@@ -31,13 +31,14 @@ Deployment
 #### The coolest way to deploy a python app I've seen so far is using docker.Here is how to get started:
   1. Install docker from https://docs.docker.com/docker-for-mac/install/ , depending on your operations system
   2. while in same directory for web-sraper-virtual create a new file called Dockerfile. The content of the file:
+   ~~~
    FROM python:3.6
    COPY . /app
    WORKDIR /app
    RUN pip install -r requirement.txt
    ENTRYPOINT ["python"]
    CMD ["app.py"]
-   
+   ~~~
   now when you type $ ls you should see the following folders:
   Dockerfile		app.py			README.md			templates requirement.txt
   3. Run $docker build -t web-scraper 
