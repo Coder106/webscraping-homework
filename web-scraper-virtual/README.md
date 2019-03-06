@@ -44,8 +44,11 @@ Deployment + Easier way to run the app
   3. Run $docker build -t web-scraper 
   4. Run $docker run -d -p 5000:5000 web-scraper:latest
   that is it! you should now go to your favourite browser and enter localhost:5000 you should see the app up and running.
+      1. add URL & Submit
   ![screen shot 2019-03-06 at 09 25 12](https://user-images.githubusercontent.com/20061747/53866615-3ed08800-3ff2-11e9-8c51-5ac5d6f89f30.png)
+      2. app takes you to scraped route
 ![screen shot 2019-03-06 at 09 29 21](https://user-images.githubusercontent.com/20061747/53866681-632c6480-3ff2-11e9-9a91-41dbf2c9e7d7.png)
+      3. you can go back by clicking the yellow link to home page to try another URL
 ![screen shot 2019-03-06 at 09 30 36](https://user-images.githubusercontent.com/20061747/53866780-a555a600-3ff2-11e9-9dd8-c1dd72b5ef23.png)
   
   
