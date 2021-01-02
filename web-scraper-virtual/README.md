@@ -55,8 +55,6 @@ Deployment + Easier way to run the app
 ![screen shot 2019-03-06 at 09 30 36](https://user-images.githubusercontent.com/20061747/53866780-a555a600-3ff2-11e9-9dd8-c1dd72b5ef23.png)
   
   
-#### samson Takele Demma 
-#### +421-949-227-950
-#### sami.dsami@gmail.com 
+###sami.dsami@gmail.com 
 
 
