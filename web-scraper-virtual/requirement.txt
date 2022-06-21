@@ -11,7 +11,7 @@ jsonify==0.5
 lxml==4.3.2
 MarkupSafe==1.1.1
 nltk==3.4
-numpy==1.16.2
+numpy==1.22.0
 pandas==0.24.1
 pygal==2.4.0
 python-dateutil==2.8.0
